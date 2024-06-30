@@ -1,0 +1,105 @@
+
+Informasi Terkait Guru :
+-nama
+-gelar depan
+-gelar belakang
+-nuptk
+-alamat
+-kelurahan
+-kecamatan
+-provinsi
+-tempat lahir
+-tanggal lahir
+-gender
+-Agama
+-umur
+
+Guru memiliki Mata Pelajaran yang diampu :
+-id_ampu
+-id_mata_pelajaran
+-kode_mata_pelajaran
+-id_guru
+-waktu_belajar
+-ruang_belajar
+
+Informasi terkait Mata Pelajaran :
+- id_mata_pelajaran
+- kode_mata_pelajaran
+- nama_mata_pelajaran
+- semester
+- kategori
+
+Informasi terkait ruang belajar :
+- id_ruang_belajar
+- kode_ruang_belajar
+- jumlah_muatan_ruang
+
+Informasi terkait siswa :
+- id_siswa
+- nama_siswa
+- nisn
+- alamat
+- kelurahan
+- kecamatan
+- provinsi
+- tempat_lahir
+- tanggal_lahir
+- Agama
+- usia
+- id_orang_tua_siswa
+
+informasi terkait pelajaran_siswa :
+- id_pelajaran_siswa
+- kode_mata_pelajaran
+- id_siswa
+- waktu_mulai
+- waktu_selesai
+- total_waktu
+- ruang_belajar_siswa
+
+informasi terkait orang_tua_siswa :
+- id_orang_tua
+- nama_suami
+- nama_istri
+- pekerjaan_suami
+- pekerjaan_istri
+- tempat_lahir_suami
+- tempat_lahir_istri
+- tanggal_lahir_suami
+- tanggal_lahir_istri
+- nik_suami
+- nik_istri
+
+informasi akun_orang_tua_siswa :
+- id_akun
+- id_orang_tua
+- user_akun_1
+- user_akun_2
+- password
+
+informasi akun_guru :
+- id_akun
+- id_guru
+- username
+- password
+
+informasi akun_siswa :
+- id_akun
+- id_siswa
+- username
+- password
+
+informasi absensi :
+- id_absensi
+- id_jadwal
+- id_guru
+- id_siswa
+- id_pelajaran_siswa
+
+informasi jadwal :
+- id_jadwal
+- id_guru
+- id_mata_pelajaran
+- semester
+- waktu_belajar
+- ruang_belajar

@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sidisiplin
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: sidisiplin
+  template:
+    metadata:
+      labels:
+        app: sidisiplin
+    spec:
+      containers:
+      - name: sidisiplin-app
+        image: veroagrisanda/sidisiplin:latest
+        ports:
+        - containerPort: 8080
